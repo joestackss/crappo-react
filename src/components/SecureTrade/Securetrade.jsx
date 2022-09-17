@@ -5,6 +5,13 @@ import "./Securetrade.css";
 function Securetrade() {
   const [cardOne, setCardOne] = useState("");
 
+  function mouseEnterDiv() {
+    setCardOne((notActive) => {
+      notActive.classList.add("blueStyle");
+      console.log("MouseEnterWorking");
+    });
+  }
+
   return (
     <section className="secureTrade">
       <div className="container container-flex">
@@ -18,17 +25,22 @@ function Securetrade() {
             <div className="inner-col-1 blueStyle" id="card-one">
               <img src="bitcon.png" loading="lazy" />
               <h2>
-                Bitcoin<span className={`shorthand`}>BTC</span>
+                Bitcoin<span className="shorthand">BTC</span>
               </h2>
               <p>
                 Digital currency in which a record of transactions is
                 maintained.
               </p>
               <button className="btn btn-blue">
-                Start Mining <span className="btn-arrow">></span>
+                Start Mining <span className="btn-arrow">{">"}</span>
               </button>
             </div>
-            <div className="inner-col-1 whiteStyle" id="card-two">
+
+            <div
+              className={`inner-col-1 whiteStyle ${cardOne}`}
+              id="card-two"
+              MouseEnter={mouseEnterDiv}
+            >
               <img src="ethereum.png" loading="lazy" />
               <h2>
                 Ethereum<span className="shorthand">ETH</span>
@@ -38,7 +50,7 @@ function Securetrade() {
                 applications.
               </p>
               <button className="btn btn-blue">
-                Start Mining <span className="btn-arrow">></span>
+                Start Mining <span className="btn-arrow">{">"}</span>
               </button>
             </div>
             <div className="inner-col-1 whiteStyle" id="card-three">
@@ -51,7 +63,7 @@ function Securetrade() {
                 world.
               </p>
               <button className="btn btn-blue">
-                Start Mining <span className="btn-arrow">></span>
+                Start Mining <span className="btn-arrow">{">"}</span>
               </button>
             </div>
           </div>
