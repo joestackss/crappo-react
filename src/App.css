@@ -84,6 +84,7 @@ p {
   color: #3671E9;
 }
 
+
 .grayText {
   color: #828282;
 }
@@ -109,6 +110,7 @@ p {
   letter-spacing: 0.45px;
   color: #393737;
   border: 0;
+  transition: var(--transition);
 }
 
 .btn-yellow {
@@ -120,9 +122,19 @@ p {
   color: #ffffff;
 }
 
+.btn-blue:hover {
+  color: #3671E9;
+  background: #fff;
+}
+
 .btn-white {
   background: #fff;
   color: #3671E9;
+}
+
+.btn-white:hover {
+  color: #fff;
+  background: #0D0D2B;
 }
 
 .btn-black-outline {
@@ -143,6 +155,13 @@ p {
   margin-left: 1em;
   margin-right: -.6em;
 }
+
+.btn-arrow:hover {
+  background-color: #3671E9;
+  color: #fff;
+}
+
+
 
 /* BUTTON END */
 
@@ -285,6 +304,6 @@ select {
 
   .btn {
     margin-left: 0;
-   
+
   }
 }

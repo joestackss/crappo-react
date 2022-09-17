@@ -23,7 +23,7 @@ const Header = () => {
                   over $30 billion in transactions.
                 </p>
                 <button className="btn btn-blue">
-                  Try for FREE <span className="btn-arrow">></span>
+                  Try for FREE <span className="btn-arrow">{">"}</span>
                 </button>
               </div>
               <div className="col-2">
