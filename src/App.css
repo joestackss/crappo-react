@@ -178,19 +178,9 @@ p {
   scroll-behavior: smooth;
 }
 
-html {
-  font-size: 1rem;
-}
-
-body {
-  font-size: 1rem;
-  line-height: 1.6;
-  font-family: var(--fnt-base);
-  color: var(--clr-black);
-}
-
 ul {
   list-style-type: none;
+  color: #fff;
 }
 
 a {
@@ -216,15 +206,6 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-button {
-  cursor: pointer;
-  outline: 0;
-  border: none;
-  background-color: transparent;
-  font-family: inherit;
-  font-size: 1.1rem;
 }
 
 input,
@@ -283,7 +264,7 @@ select {
 }
 
 .nav-width {
-  width: 20%;
+  width: 75%;
 }
 
 .nav-width-1 {

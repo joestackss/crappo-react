@@ -11,10 +11,10 @@ const Navbar = () => {
   return (
     <nav className="navbar w-100 flex">
       <div className="containers w-100">
-        <div className="navbar-content flex fw-7">
+        <div className="navbar-content flex fw-3">
           <div className="brand-and-toggler flex flex-between nav-width">
-            <Link to="/" className="navbar-brand fs-26">
-              <img src="merglow-logo.svg" alt="logo" />
+            <Link to="/" className="navbar-brand">
+              <img src="logo.svg" alt="logo" />
             </Link>
             <div
               type="button"
@@ -52,8 +52,8 @@ const Navbar = () => {
                   <Link to="/About Us">Login</Link>
                 </li>
               </ul>
-              <div className="flex navbar-btns">
-                <button type="button" className="btn">
+              <div className="flex navbar-btns ">
+                <button type="button" className="btn btn-blue">
                   <span>Register</span>
                 </button>
               </div>
