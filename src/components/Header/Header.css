@@ -1,14 +1,13 @@
 /* HEADER START */
 .header {
     background-image: url(../../crypto-images/hero-bg.png);
-    /* background-color: #0D0D2B;
-    background-blend-mode: multiply; */
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5em 0 6em;
+    padding: 5em 0 0;
+    background-color: red;
 }
 
 .header-main-col {
@@ -90,7 +89,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 6em 0;
+        padding: 6em 0 0;
     }
 
     .header-main-col {
