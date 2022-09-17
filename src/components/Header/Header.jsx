@@ -7,26 +7,26 @@ const Header = () => {
     <div>
       <Navbar />
       <header className="header flex flex-center flex-column">
-        <header class="header">
-          <section class="container container-flex">
-            <div class="header-main-col">
-              <div class="col-1">
-                <div class="discount-col">
-                  <p class="discount-code">75% SAVE</p>
-                  <p class="discount-code-promo">
+        <header className="header">
+          <section className="container container-flex">
+            <div className="header-main-col">
+              <div className="col-1">
+                <div className="discount-col">
+                  <p className="discount-code">75% SAVE</p>
+                  <p className="discount-code-promo">
                     For the Black Friday weekend
                   </p>
                 </div>
                 <h1>Fastest and secure platform to invest in crypto</h1>
-                <p class="paragraph">
+                <p className="paragraph">
                   Buy and sell cryptocurrencies, trusted by 10M wallets with
                   over $30 billion in transactions.
                 </p>
-                <button class="btn btn-blue">
-                  Try for FREE <span class="btn-arrow">></span>
+                <button className="btn btn-blue">
+                  Try for FREE <span className="btn-arrow">></span>
                 </button>
               </div>
-              <div class="col-2">
+              <div className="col-2">
                 <img src="hero-img.png" alt="hero-image" loading="lazy" />
               </div>
             </div>

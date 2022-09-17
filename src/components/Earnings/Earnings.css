@@ -2,9 +2,8 @@
 
 .earnings {
     background-color: #0D0D2B;
-    /* position: absolute; */
     text-align: center;
-    padding-bottom: 12em;
+    padding-bottom: 4em;
     width: 100%;
 
 }
@@ -19,18 +18,23 @@
 
 
 
+@media (max-width:800px) {
+    html {
+        font-size: .8rem;
+    }
 
-/* EARNINGS */
+    /* EARNINGS */
 
-.earnings {
-    background-color: #0D0D2B;
-    /* position: absolute; */
-    text-align: center;
-    padding-bottom: 12em;
-    width: 100%;
+    .earnings {
+        background-color: #0D0D2B;
+        text-align: center;
+        padding-bottom: 4em;
+        width: 100%;
 
-}
+    }
 
-.earnings .col {
-    margin: 0 auto;
+    .earnings .col {
+        margin: 0 auto;
+    }
+
 }
