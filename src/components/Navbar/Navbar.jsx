@@ -37,19 +37,19 @@ const Navbar = () => {
             <div className="navbar-collapse-content">
               <ul className="navbar-nav nav-width-1">
                 <li className="text-black">
-                  <Link to="#product">Product</Link>
+                  <a to="#product">Product</a>
                 </li>
                 <li className="text-black">
-                  <Link to="#feature">Feature</Link>
+                  <a to="#features">Feature</a>
                 </li>
                 <li className="text-black">
-                  <Link to="#about">About</Link>
+                  <a to="#statistics">About</a>
                 </li>
                 <li className="text-black">
-                  <Link to="#contact">Contact</Link>
+                  <a to="#contact">Contact</a>
                 </li>
                 <li className="text-black">
-                  <Link to="/">Login</Link>
+                  <a to="/">Login</a>
                 </li>
               </ul>
               <div className="flex navbar-btns ">
