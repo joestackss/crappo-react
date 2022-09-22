@@ -3,7 +3,7 @@ import "./Statistics.css";
 
 function Statistics() {
   return (
-    <section className="statistics">
+    <section id="statistics" className="statistics">
       <div className="container container-flex">
         <div className="statistics-main-col">
           <div className="col-2">

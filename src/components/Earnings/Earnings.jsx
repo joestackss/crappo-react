@@ -4,7 +4,7 @@ import "./Earnings.css";
 function Earnings() {
   return (
     <div>
-      <section class="earnings">
+      <section id="earnings" class="earnings">
         <div class="container container-flex">
           <div class="col">
             <h2>Check how much you can earn</h2>

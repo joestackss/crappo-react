@@ -3,7 +3,7 @@ import "./Whycrap.css";
 
 function Whycrap() {
   return (
-    <section className="whyCrappo">
+    <section id="whycrappo" className="whyCrappo">
       <div className="container container-flex">
         <div className="intro-col-1">
           <div className="icon-content-col">

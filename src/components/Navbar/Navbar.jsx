@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar w-100 flex">
+    <nav  className="navbar w-100 flex">
       <div className="containers w-100">
         <div className="navbar-content flex fw-3">
           <div className="brand-and-toggler flex flex-between nav-width">
@@ -37,16 +37,16 @@ const Navbar = () => {
             <div className="navbar-collapse-content">
               <ul className="navbar-nav nav-width-1">
                 <li className="text-black">
-                  <Link to="/">Product</Link>
+                  <Link to="#product">Product</Link>
                 </li>
                 <li className="text-black">
-                  <Link to="/">Feature</Link>
+                  <Link to="#feature">Feature</Link>
                 </li>
                 <li className="text-black">
-                  <Link to="/">About</Link>
+                  <Link to="#about">About</Link>
                 </li>
                 <li className="text-black">
-                  <Link to="/">Contact</Link>
+                  <Link to="#contact">Contact</Link>
                 </li>
                 <li className="text-black">
                   <Link to="/">Login</Link>

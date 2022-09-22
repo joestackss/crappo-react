@@ -7,6 +7,10 @@
   font-family: 'Rubik', sans-serif;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   font-size: 1rem;
 }

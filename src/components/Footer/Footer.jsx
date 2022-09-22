@@ -1,11 +1,10 @@
 import React from "react";
-import { useState } from "react";
 import "./Footer.css";
 
 function Footer() {
 
   return (
-    <footer className="footer">
+    <footer id="footer" className="footer">
       <div className="container container-flex">
         <div className="footer-col">
           <div className="col-1 crappo-logo">

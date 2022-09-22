@@ -3,7 +3,7 @@ import "./Features.css";
 
 function Features() {
   return (
-    <section class="features">
+    <section id="features" class="features">
       <div class="container container-flex">
         <div class="intro-col-1">
           <h2>

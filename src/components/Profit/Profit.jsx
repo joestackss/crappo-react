@@ -3,7 +3,7 @@ import "./Profit.css";
 
 function Profit() {
   return (
-    <section className="profit">
+    <section id="profit" className="profit">
       <div className="container container-flex">
         <div className="profit-main-col">
           <div className="col-1">

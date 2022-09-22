@@ -3,7 +3,7 @@ import "./Mining.css";
 
 function Mining() {
   return (
-    <section className="mining">
+    <section id="mining" className="mining">
       <div className="container container-flex">
         <div className="main-col">
           <div className="col-1">

@@ -13,7 +13,7 @@ function Securetrade() {
   }
 
   return (
-    <section className="secureTrade">
+    <section id="securetrade" className="secureTrade">
       <div className="container container-flex">
         <div>
           <div className="title-col">

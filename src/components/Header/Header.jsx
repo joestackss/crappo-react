@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
       <Navbar />
-      <header className="header flex flex-center flex-column">
+      <header id="header" className="header flex flex-center flex-column">
         <header className="header">
           <section className="container container-flex">
             <div className="header-main-col">
